@@ -1,0 +1,12 @@
+{
+  "name": "p2m-gpu-verifiable-test-train",
+  "private": true,
+  "type": "module",
+  "description": "verified GPU-kernel / training-step RLVR harness: blind workspaces, gate-stack grading (spec hash, memory, determinism, exact equivalence, hidden shapes, speedup), canary-calibrated oracles, mission contracts",
+  "main": "index.ts",
+  "scripts": {
+    "selftest": "node selftest.mjs",
+    "oracle": "node cli.mjs oracle"
+  },
+  "dependencies": {}
+}
